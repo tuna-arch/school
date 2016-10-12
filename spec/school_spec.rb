@@ -18,7 +18,7 @@ describe School do
         0b0001_0001, # Pointer modifier, add instruction.
         0x0,         # OUT register.
         0x4,         # r1 = (2 byte word_size) * 0x2.
-      ].pack('L*')
+      ].pack('S*')
 
       expect(dsl.bytecode).to eq(expected)
     end
