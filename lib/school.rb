@@ -6,10 +6,9 @@ module School
     # Opcodes and operands are all the same size, which
     # is determined by the word size for the system.
     WORD_SIZE_CODES = {
-      8  => 'C',
-      16 => 'S',
-      32 => 'L',
-      64 => 'Q',
+      16 => 'S>',
+      32 => 'L>',
+      64 => 'Q>',
     }
 
     # https://github.com/tuna-arch/tuna/blob/master/2_isa.md
